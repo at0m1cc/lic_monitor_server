@@ -1,6 +1,5 @@
 spring:
   datasource:
-    url: 
-    username: 
-    password: 
-    driver-class-name: 
+    url: ${DB_URL}/nano_csoft
+    username: ${DB_USER}
+    password: ${DB_PWD}
